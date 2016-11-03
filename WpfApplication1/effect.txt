@@ -1,0 +1,13 @@
+bloom-  都是条透明度的
+blur 模糊
+colcor 调色
+colorizer effect 也是调色
+dropshadow 阴影
+magnify 局部放大
+
+pixlate 马赛克
+ripple 波浪样吧大概
+swirl 旋转
+titleeffect 复制
+watertranstioneffect 有点抖 
+wave  也是
