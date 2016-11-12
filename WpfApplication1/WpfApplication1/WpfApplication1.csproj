@@ -75,8 +75,50 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="pages\button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\PPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\tobu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\ToolBarPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\tooltip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="pages\button.xaml.cs">
+      <DependentUpon>button.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\menu.xaml.cs">
+      <DependentUpon>menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\PPage.xaml.cs">
+      <DependentUpon>PPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\tobu.xaml.cs">
+      <DependentUpon>tobu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\ToolBarPage.xaml.cs">
+      <DependentUpon>ToolBarPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\tooltip.xaml.cs">
+      <DependentUpon>tooltip.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

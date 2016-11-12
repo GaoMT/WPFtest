@@ -64,5 +64,49 @@ namespace WpfApplication1
      {
          this.DragMove();
      }
+
+     private void butt(object sender, RoutedEventArgs e)
+     {
+         NavigationWindow window = new NavigationWindow();
+
+         window.Source = new Uri("/pages/button.xaml", UriKind.Relative);
+
+         window.Show();
+     }
+
+     private void Button_Click(object sender, RoutedEventArgs e)
+     {
+
+     }
+
+     private void tool(object sender, RoutedEventArgs e)
+     {
+         NavigationWindow window = new NavigationWindow();
+
+         window.Source = new Uri("/pages/tooltip.xaml", UriKind.Relative);
+
+         window.Show();
+
+     }
+
+     private void page(object sender, RoutedEventArgs e)
+     {
+         NavigationWindow window = new NavigationWindow();
+
+         window.Source = new Uri("/pages/PPage.xaml", UriKind.Relative);
+
+         window.Show();
+
+     }
+
+     private void toolbar(object sender, RoutedEventArgs e)
+     {
+         NavigationWindow window = new NavigationWindow();
+
+         window.Source = new Uri("/pages/toolbar.xaml", UriKind.Relative);
+
+         window.Show();
+
+     }
     }
 }
